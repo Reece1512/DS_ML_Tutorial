@@ -149,8 +149,4 @@ jupyter notebook
 
 ---
 
-## 📬 Contact
-
-Feel free to connect if you have any questions or feedback!
-
 [![GitHub](https://img.shields.io/badge/GitHub-Reece1512-181717?style=flat&logo=github)](https://github.com/Reece1512)
