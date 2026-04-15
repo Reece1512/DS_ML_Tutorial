@@ -6,7 +6,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-A curated collection of Data Science and Machine Learning projects, covering everything from foundational library usage to end-to-end predictive modeling on real-world datasets.
+A collection of Data Science and Machine Learning projects, covering foundational library usage and end-to-end predictive modeling on real-world datasets.
 
 ---
 
@@ -22,11 +22,12 @@ A curated collection of Data Science and Machine Learning projects, covering eve
 
 ## 🛠 Tech Stack
 
-| Category | Libraries |
+| Category | Libraries / Algorithms |
 |---|---|
 | Data Manipulation | `NumPy`, `Pandas` |
 | Visualization | `Matplotlib`, `Seaborn` |
-| Machine Learning | `Scikit-learn`|
+| ML Algorithms | Linear Regression · Logistic Regression · Decision Tree · SVM · KNN · XGBoost |
+| ML Framework | `Scikit-learn` |
 | Deep Learning | `PyTorch` |
 
 ---
@@ -50,7 +51,7 @@ DS_ML_Tutorial/
 │   ├── PyTorch_Tutorial.ipynb
 │   └── Scikit_learn - Data_preprocessing.ipynb
 │
-├── 📒 Projects/            
+├── 📒 Projects/            # End-to-end applied projects
 │   ├── Practice_Project_01_Netflix_data.ipynb
 │   ├── Practice_Project_02_Heart_disease_data.ipynb
 │   ├── Project_03_Home_Prices_Prediction.ipynb
@@ -61,7 +62,7 @@ DS_ML_Tutorial/
 │   ├── Costumers_Churn_Prediction_2020.ipynb
 │   └── Titanic - version processing df(Fare).ipynb
 │
-└── 📄 Data/                
+└── 📄 Data/                # CSV datasets used across notebooks
 ```
 
 ---
@@ -69,41 +70,43 @@ DS_ML_Tutorial/
 ## 🚀 Projects
 
 ### 🏠 Home Prices Prediction
-Predicting house prices using regression techniques.  
+Predicting house prices using regression techniques. 
 **Skills:** Linear Regression, Feature Engineering, Scikit-learn  
-📓 [Notebook](./Project_03_Home_Prices_Prediction_Final.ipynb)
+📓 [Notebook](./projects/Project_03_Home_Prices_Prediction_Final.ipynb)
 
 ---
 
 ### 💔 Customer Churn Prediction
 Building a classifier to identify customers likely to churn based on behavioral and demographic features.  
-**Skills:** Classification, Data Cleaning, Imbalanced Data Handling  
-📓 [Notebook](./Costumers_Churn_Prediction_2020.ipynb)
+📓 [Notebook](./projects/Costumers_Churn_Prediction_2020.ipynb)
 
 ---
 
 ### 🫀 Heart Disease Prediction
-Exploratory data analysis and classification on a clinical heart disease dataset.  
+EDA and classification on a clinical heart disease dataset.  
 **Skills:** EDA, Logistic Regression, Decision Tree, Model Comparison  
-📓 [Notebook](./Practice_Project_02_Heart_disease_data.ipynb)
+📓 [Notebook](./projects/Practice_Project_02_Heart_disease_data.ipynb)
 
 ---
 
 ### 🎬 Netflix Data Analysis
 Exploratory analysis on Netflix's content catalog — uncovering trends in genres, release years, and content type distribution.  
-📓 [Notebook](./Practice_Project_01_Netflix_data.ipynb)
+**Skills:** Pandas, Matplotlib, Seaborn, EDA  
+📓 [Notebook](./projects/Practice_Project_01_Netflix_data.ipynb)
 
 ---
 
 ### 🚢 Titanic Survival Prediction
-Classic Kaggle-style survival prediction with a focus on feature processing (Fare column handling).    
-📓 [Notebook](./Titanic%20-%20version%20processing%20df(Fare).ipynb)
+Survival prediction with a focus on feature processing (Fare column handling).  
+**Skills:** Data Preprocessing, Classification, Pandas  
+📓 [Notebook](./projects/Titanic%20-%20version%20processing%20df(Fare).ipynb)
 
 ---
 
 ### 🌆 California Cities Data Visualization
-Geographic and statistical visualization of California city data.  
-📓 [Notebook](./Project_Data_Visualization%20-%20California_Cities.ipynb)
+Visualization of California city data.  
+**Skills:** Matplotlib, Seaborn, Geospatial Visualization  
+📓 [Notebook](./projects/Project_Data_Visualization%20-%20California_Cities.ipynb)
 
 ---
 
@@ -111,18 +114,18 @@ Geographic and statistical visualization of California city data.
 
 | Topic | Notebook |
 |---|---|
-| NumPy fundamentals | [Numpy.ipynb](./Numpy.ipynb) |
-| Pandas data manipulation | [Pandas.ipynb](./Pandas.ipynb) |
-| Matplotlib visualization | [Matplotlib.ipynb](./Matplotlib.ipynb) |
-| Seaborn visualization | [Seaborn_Tutorial.ipynb](./Seaborn_Tutorial.ipynb) |
-| Linear Regression | [Linear_Regression.ipynb](./Linear_Regression.ipynb) |
-| Logistic Regression | [Logistic_Regression.ipynb](./Logistic_Regression.ipynb) |
-| Decision Tree | [Decision_Tree.ipynb](./Decision_Tree.ipynb) |
-| Support Vector Machine | [Support_Vector_Machine.ipynb](./Support_Vector_Machine.ipynb) |
-| K-Nearest Neighbours | [k-Nearest_Neighbours_Classifier.ipynb](./k-Nearest_Neighbours_Classifier.ipynb) |
-| XGBoost | [XGBoost.ipynb](./XGBoost.ipynb) |
-| PyTorch | [PyTorch_Tutorial.ipynb](./PyTorch_Tutorial.ipynb) |
-| Data Preprocessing (Scikit-learn) | [Scikit_learn - Data_preprocessing.ipynb](./Scikit_learn%20-%20Data_preprocessing.ipynb) |
+| NumPy fundamentals | [Numpy.ipynb](./tutorials/Numpy.ipynb) |
+| Pandas data manipulation | [Pandas.ipynb](./tutorials/Pandas.ipynb) |
+| Matplotlib visualization | [Matplotlib.ipynb](./tutorials/Matplotlib.ipynb) |
+| Seaborn visualization | [Seaborn_Tutorial.ipynb](./tutorials/Seaborn_Tutorial.ipynb) |
+| Linear Regression | [Linear_Regression.ipynb](./tutorials/Linear_Regression.ipynb) |
+| Logistic Regression | [Logistic_Regression.ipynb](./tutorials/Logistic_Regression.ipynb) |
+| Decision Tree | [Decision_Tree.ipynb](./tutorials/Decision_Tree.ipynb) |
+| Support Vector Machine | [Support_Vector_Machine.ipynb](./tutorials/Support_Vector_Machine.ipynb) |
+| K-Nearest Neighbours | [k-Nearest_Neighbours_Classifier.ipynb](./tutorials/k-Nearest_Neighbours_Classifier.ipynb) |
+| XGBoost | [XGBoost.ipynb](./tutorials/XGBoost.ipynb) |
+| PyTorch | [PyTorch_Tutorial.ipynb](./tutorials/PyTorch_Tutorial.ipynb) |
+| Data Preprocessing (Scikit-learn) | [Scikit_learn - Data_preprocessing.ipynb](./tutorials/Scikit_learn%20-%20Data_preprocessing.ipynb) |
 
 ---
 
@@ -145,5 +148,9 @@ jupyter notebook
 ```
 
 ---
+
+## 📬 Contact
+
+Feel free to connect if you have any questions or feedback!
 
 [![GitHub](https://img.shields.io/badge/GitHub-Reece1512-181717?style=flat&logo=github)](https://github.com/Reece1512)
